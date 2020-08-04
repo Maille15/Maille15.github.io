@@ -1,8 +1,9 @@
 function onPageStart(){
   var name = prompt("Please, enter your name!");
-}
-var welcome = document.getElementById("Welcome")
+  var welcome = document.getElementById("Welcome")
 welcome.innerHTML = "Welcome " + name + "," + " Don't Forget to Smile!"
+}
+
 let myh1 = document.getElementById("text");
 
 function changeText() {
