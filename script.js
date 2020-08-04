@@ -1,6 +1,6 @@
 var name = prompt("Please, enter your name!")
 var welcome = document.getElementById("Welcome")
-welcome.innerHTML = "Welcome " + name + "," + " Don't Forget to Smile!"
+welcome.innerHTML = "Welcome " + name + "," + " don't forget to smile!"
 let myh1 = document.getElementById("text");
 
 function changeText() {
@@ -11,21 +11,19 @@ function changeText() {
  function changeSize() {
    myh1.style.fontSize = (myh1.style.fontSize == "24px") ? "20px" : "24px"
  }
-if (myh1){
-  console.log("exist")
+
  myh1.addEventListener("mouseover", changeText);
  myh1.addEventListener("mouseleave", changeText);
-}
- 
 
 //Hover over picture code
 function changePicture(pictureNumber){
   var image = document.getElementById("myImage");
   if(pictureNumber === 1){
     image.src =
-    "https://media1.tenor.com/images/f70e66856f551d03c84bc17d3a7e7046/tenor.gif?itemid=13836198"
+    "https://photos.app.goo.gl/YPCYE8bTvy23rMmt9"
   }else{
-    image.src = "https://media0.giphy.com/media/4VY7nytIjAthhTiJcf/giphy.gif"
+    image.src =
+    "https://photos.app.goo.gl/HwzfGy8isjPBrNU86"
   }
 }
 

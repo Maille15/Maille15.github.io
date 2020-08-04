@@ -2,6 +2,7 @@ body {
   text-align: center; 
   font-family: Consolas;
   color: darkblue;
+  text-align: top;
   background: url(https://www.foodiecrush.com/wp-content/uploads/2020/03/Mediterranean-Chickpea-Salad-Stuffed-Avocados-foodiecrush.com-014.jpg);
 }
 input {
@@ -12,8 +13,13 @@ p{
   font-size: 20px;
 }
 h1{
-  font-size: 50px;
+  front-size 50px;
 }
+
+img{
+  height: 100px;
+}
+
 #myImage{
   height: 200px
 }
