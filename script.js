@@ -30,15 +30,6 @@ function changePicture(pictureNumber){
   }else{
     image.src = "https://media0.giphy.com/media/4VY7nytIjAthhTiJcf/giphy.gif"
   }
-var myButton = document.getElementById("Page Two")
-function toggleButton(){
-  myButton.innerHTML = (myButton.innerHTML == "Page Two") ? "Página Dos" : "Page Two";
-}
-
-var myButton = document.getElementById("Page Three")
-function toggleButton(){
-  myButton.innerHTML = (myButton.innerHTML == "Page Three") ? "Página Tres" : "Page Three";
-}
 }
 
 
